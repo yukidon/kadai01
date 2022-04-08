@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Open Sans', "メイリオ", sans-serif;
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    width: 640px;
+    height: auto;
+    }
+
+.text-center{
+    text-align: center;
+}
+
+#photo-area.viewport {
+    height: 240px;
+    width:320px;
+    }
+    
+    #photo-area.viewport canvas, video {
+        float: left;
+        width:320px;
+        height: 240px;
+    }
+    
+    #photo-area.viewport canvas.drawingBuffer, video.drawingBuffer {
+    margin-left: -320px;
+    }
+
+.title_img{
+    width: 100%;
+}
+
+.cardzone{
+    display: flex;  
+    flex-wrap: wrap;
+    margin:auto
+}
+
+.mikata{
+margin: 10px;
+width: 40%;
+}
+
+.teki{
+margin: 10px;
+width: 40%;
+}
+
