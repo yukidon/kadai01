@@ -1,12 +1,24 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+.weatherMain{
+    width: 640px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
 
 body{
-    font-family: 'Open Sans', "メイリオ", sans-serif;
+    font-family: 'Itim', "Mplus 1p" sans-serif;
     font-size: 16px;
     color: #222222;
     text-align: center;
     font-size: 1.5rem;
-    margin: 0;
+    margin: 0 auto;
     width: 640px;
     height: auto;
     }
@@ -41,12 +53,61 @@ body{
 }
 
 .mikata{
-margin: 10px;
-width: 40%;
+padding: 0.5em;
+    width: 45%;
+float: left;
 }
 
 .teki{
-margin: 10px;
-width: 40%;
+    padding: 0.5em;
+width: 45%;
+float: right;
 }
 
+.inline{
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 21px 0;
+    font-size: 18px;
+    background-color: #ffd61a;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.inline:hover{
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 21px 0;
+    font-size: 18px;
+    background-color: #bd9b03;
+    color: #fff;
+    text-align: center;
+}
+
+
+.fight{
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 21px 0;
+    font-size: 18px;
+    background-color: #f87437;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fight:hover{
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 21px 0;
+    font-size: 18px;
+    background-color: #a34c24;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
