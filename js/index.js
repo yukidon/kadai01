@@ -310,7 +310,7 @@ console.log(code)
 
 
 
-
+// 勝負ボタン後の挙動
 $('.fight').modaal({
 	before_open: teki,
     animation_speed: "2000",
@@ -399,7 +399,7 @@ $('.fight').modaal({
         }
 
 
-    // 勝敗判定
+    // 勝敗判定関数
     function kekka() {
         if(result8 > random){
             $("h4").text("勝ち");
